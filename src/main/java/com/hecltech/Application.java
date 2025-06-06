@@ -17,6 +17,7 @@ public class Application {
     private void go() throws SQLException {
         // All Persons
         List<Person> all = personService.getAll();
+        System.out.ptint("Hello");
         System.out.println(all);
 
         //Peron by id
